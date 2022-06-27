@@ -1,0 +1,58 @@
+
+.fundo{
+    background-image: url("../img/holografico.jpg");
+    background-color: white;
+    background-blend-mode: multiply;
+    background-size: contain;
+   
+}
+
+
+
+.jumbotron{
+    background-color: rgb(250, 218, 249);
+    padding-top: 100px;
+    font-size: 16px;
+    color: rgb(88, 15, 157);
+    
+}
+
+.flex-container {
+    display: flex;
+}
+
+.foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+   
+}
+
+.navbar-dark{
+    background-color: rgb(227, 95, 133);
+    background-blend-mode: multiply;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.card{
+   
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+   
+    
+   
+
+}
+.ft{
+    padding-top: 100px;
+    width: 400px;
+    height: 584px;
+}
+.rodape{
+    background-color:rgb(249, 165, 244);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}

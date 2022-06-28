@@ -1,13 +1,21 @@
 
 .fundo{
     background-image: url("../img/holograma.jpg");
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(204, 192, 192);
     background-blend-mode: multiply;
     background-size: contain;
+
+
    
 }
 
+.card-text{
+    color: rgb(130, 33, 33);
+}
 
+.card-title{
+    color:  rgb(44, 6, 79);
+}
 
 .jumbotron{
     background-color: rgb(250, 218, 249);
@@ -15,6 +23,11 @@
     font-size: 16px;
     color: rgb(44, 6, 79);
     
+}
+
+.btn-light{
+    color: rgb(111, 71, 19);
+    background-color: rgb(255, 176, 229);
 }
 
 .flex-container {
@@ -36,9 +49,12 @@
 
 }
 
+
+
 .card{
    
     background-color: rgb(255, 255, 255);
+    opacity: 0.7;
     width: 100px;
    
     

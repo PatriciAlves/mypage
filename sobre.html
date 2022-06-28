@@ -18,7 +18,7 @@
     <!-- navbar-->
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark ">
-        <img src="assets/img/icon.png" alt="" width="70px" height="70px">
+        <img src="assets/img/icon.png" alt="" width="90px" height="80px">
         <a class="navbar-brand" href="#"> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,16 +27,16 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="sobre.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Formação</a>
+                    <a class="nav-link" href="#formacao">Formação</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Experiências</a>
+                    <a class="nav-link" href="#experiencias">Experiências</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Portifolio</a>
+                    <a class="nav-link" href="#portifolio">Portifolio</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -46,20 +46,15 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="https://github.com/PatriciAlves">GitHub</a>
                         <a class="dropdown-item"
-                            href="https://www.linkedin.com/in/patricia-souza-developerjava/">LinkdIn</a>
-                        <a class="dropdown-item" href="#">Currículo</a>
+                            href="https://www.linkedin.com/in/patricia-souza-developerjava/">LinkedIn</a>
+                        <a class="dropdown-item" href="assets/docs/CV - Patricia S.pdf" target="_blank">Currículo</a>
                     </div>
                     
                 </li>
             </ul>
             
         </div>
-        <nav class="navbar navbar-dark">
-            <form class="form-inline">
-              <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquise">
-              <button class="btn btn-light my-2 my-sm-0" type="submit">Buscar</button>
-            </form>
-          </nav>
+      
     </nav>
 
 
@@ -71,12 +66,14 @@
             <img class="ft"src="assets/img/Pati.jpeg" class="card-img-top" alt="...">
         </div>
         <div class="jumbotron "style=" padding-top: 200px;">
-            <h1 class="display-4"><b>Hello World!</b></h1>
+            <h1 class="display-4"><b>Hello World <img src="assets/img/iconcf.png" alt="java" width="50px" height="45px"></b></h1>
 
             <p class="lead">Patrícia Alves de Souza - 27 anos</p>
             
+            
             <p>Desenvolvedora FullStack em Formação | Indaiatuba - São Paulo</p>
             <p class="lead"></p>
+    
 
 
             <hr class="my-4">
@@ -87,8 +84,9 @@
                 Atualmente focada em desenvolvimento Back -End
                 com Java e Spring Boot, e aberta para aprender
                 novas tecnologias.</p>
+                
 
-            <a class="btn btn-secondary" href="#" role="button">Saiba mais</a>
+            <a class="btn btn-light" href="assets/docs/CV - Patricia S.pdf" role="button">Saiba mais</a>
         </div>
     </div>
 
@@ -99,7 +97,7 @@
     <!-- jumbotrom Formação-->
     <div class="jumbotron jumbotron ">
         <div class="container">
-            <h1 class="display-4">Formação</h1>
+            <h1 class="display-4" id="formacao">Formação</h1>
             
             <p class="lead"> “Acredito que a causa do Sucesso é muito mais atitude do que aptidão.” – Eduardo Volpato
             </p>
@@ -121,10 +119,10 @@
             </div>
         </div>
         <div class="card">
-            <img src="assets/img/uninter.png" class="card-img-top foto" alt="..." >
+            <img src="assets/img/uninter.jpg" class="card-img-top foto" alt="..." >
             <div class="card-body">
                 <h5 class="card-title">UNINTER</h5>
-                <p>Análise e Desenvolvimento de Sistemas</p>
+                <p class="card-text">Análise e Desenvolvimento de Sistemas</p>
                 <p class="card-text">Um analista e desenvolvedor de sistemas é o elo indispensável entre as necessidades
                     do mundo dos negócios e os crescentes recursos da tecnologia da informação. Desse modo, o
                     profissional estará habilitado para desenvolver soluções de negócios, baseadas em computação com
@@ -138,7 +136,7 @@
             <img src="assets/img/anhanguera.jpg" class="card-img-top foto" alt="...">
             <div class="card-body">
                 <h5 class="card-title">ANHANGUERA</h5>
-                <p>Gestão de Recursos Humanos</p>
+                <p class="card-text">Gestão de Recursos Humanos</p>
                 <p class="card-text"> Forma a identidade profissional do tecnólogo em recursos humanos, levando em
                     consideração os aspectos específicos da profissão. Dentre as principais áreas de conhecimento, se
                     destacam:
@@ -157,8 +155,8 @@
 <hr>
 
     <!-- jumbotrom Experiencias-->
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
+    <div class="jumbotron jumbotron-fluid"  >
+        <div class="container"id="experiencias">
             <h1 class="display-4">Experiências</h1>
             <p class="lead">Não basta apenas o talento. O sucesso está diretamente ligado ao esforço, determinação e
                 atitude de fazer melhor e diferente sempre.</p>
@@ -170,10 +168,10 @@
             <img src="assets/img/embelleze.jpeg" class="card-img-top foto" alt="...">
             <div class="card-body">
                 <h5 class="card-title">INSTITUTO EMBELLEZE</h5>
-                <p>Instrutora</p>
+                <p class="card-text">Instrutora</p>
                 <p class="card-text">Lecionava para turmas com 15 alunos por sala.</p>
-                <p>Auxiliava na coordenação pedagógica de outros instrutores.</p>
-                <p>Criava conteúdos extra para maior produtividade e enriquecimento do meu trabalho e crescimento dos
+                <p class="card-text">Auxiliava na coordenação pedagógica de outros instrutores.</p>
+                <p class="card-text">Criava conteúdos extra para maior produtividade e enriquecimento do meu trabalho e crescimento dos
                     alunos</p>
             </div>
             <div class="card-footer">
@@ -184,9 +182,9 @@
             <img src="assets/img/qpasso.png" class="card-img-top foto" alt="...">
             <div class="card-body">
                 <h5 class="card-title">QPASSO DISTRIBUIDORA</h5>
-                <p>Operador de Telemarketing</p>
+                <p class="card-text">Operador de Telemarketing</p>
                 <p class="card-text">Entrava com contato com cliente para vendas de produtos alimentícios.</p>
-                <p>Criava catálogos para facilitar a visualização dos clientes e consequentemente no aumento das vendas.
+                <p class="card-text">Criava catálogos para facilitar a visualização dos clientes e consequentemente no aumento das vendas.
                 </p>
             </div>
             <div class="card-footer">
@@ -197,7 +195,7 @@
             <img src="assets/img/trabalho.jpg" class="card-img-top foto" alt="...">
             <div class="card-body">
                 <h5 class="card-title">AUTONOMA</h5>
-                <p>Cabelereira</p>
+                <p class="card-text">Cabelereira</p>
                 <p class="card-text">Minha vida profissional iniciou-se muito cedo. Sempre trabalhei na área da beleza
                     como fonte de renda extra.</p>
             </div>
@@ -209,12 +207,12 @@
     <br>
 <hr>
     <!--portifolio titulo-->
-    <div class="jumbotron">
+    <div class="jumbotron" id="portifolio">
         <h1 class="display-4">Conheça alguns dos meus projetos</h1>
-        <p class="lead">Ao longo dos meus estudos tenho desenvolvido alguns projetos que são de suma importância para
+        <p class="lead card-text">Ao longo dos meus estudos tenho desenvolvido alguns projetos que são de suma importância para
             consolidar todo meu conhecimento.</p>
 
-        <p>Para saber mais, click no botão abaixo. Ele irá te direcionar para minha pagína no GitHub, onde tenho
+        <p class="card-text">Para saber mais, click no botão abaixo. Ele irá te direcionar para minha pagína no GitHub, onde tenho
             repositórios que mostra meu crecimento na área do desenvolvimento de software. Ou se preferir continuar
             navegando nesta page, mais abaixo
             estão alguns dos meus principais projetos.</p><br>
@@ -227,11 +225,11 @@
             <iframe src="assets/img/mypage.mp4" class="mr-3" width="800" height="500" frameborder="0"></iframe>
             <div class="media-body"><br>
                 <h5 class="mt-0 mb-1">Página VoeWorld</h5><br>
-                <p>Página desenvolvida com CSS,JS,HTML e Bootstrap. Com formulário validado, menu fixo, cards, midea e
+                <p class="card-text">Página desenvolvida com CSS,JS,HTML e Bootstrap. Com formulário validado, menu fixo, cards, midea e
                     muito mais. </p><br>
-                <p>Click no botão abaixo pra conferir de pertinho esse lindo projeto.</p><br>
-                <a class="btn btn-secondary" href="https://patricialves.github.io/bootstrap/site.html"
-                    role="button">Saiba mais</a>
+                <p class="card-text">Click no botão abaixo pra conferir de pertinho esse lindo projeto.</p><br>
+                <a class="btn btn-light" href="https://patricialves.github.io/bootstrap/site.html"
+                    role="button" target="_blank">Saiba mais</a>
             </div>
         </li>
 
@@ -241,13 +239,13 @@
     <hr>
     <footer class="rodape">
         <div  class="col-md-12 d-flex justify-content-center">
-        <p ><b>Todos os direitos reservados Patricia Souza &copy;</b></p>
+        <p ><b>Esta página foi desenvolvida por Patricia Souza &copy;</b></p>
     </div>
     </footer>
    
 
 
-
+    <script src="/assets/javascript/pesquisa.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>

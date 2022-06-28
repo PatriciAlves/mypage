@@ -18,7 +18,7 @@
 }
 
 .jumbotron{
-    background-color: rgb(250, 218, 249);
+    background-color: rgb(254, 223, 253);
     padding-top: 100px;
     font-size: 16px;
     color: rgb(44, 6, 79);
@@ -62,9 +62,9 @@
 
 }
 .ft{
-    padding-top: 100px;
+    padding-top: 125px;
     width: 400px;
-    height: 584px;
+    height: 590px;
 }
 .rodape{
     background-color:rgb(249, 165, 244);

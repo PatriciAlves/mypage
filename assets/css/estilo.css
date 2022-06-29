@@ -7,9 +7,12 @@
 
 
 }
+.lead{
+    color:  rgb(111, 71, 19);
+}
 
 .card-text {
-    color: rgb(130, 33, 33);
+    color:  rgb(111, 71, 19);
 }
 
 .card-title {

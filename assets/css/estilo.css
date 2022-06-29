@@ -7,6 +7,22 @@
 
 
 }
+
+.cert{
+    width: 50;
+    height: 50;
+}
+
+
+.mr-3{
+    width: 350px;
+    height: 200px;
+}
+.mr-4{
+    width: 800px;
+    height: 500px;
+}
+
 .lead{
     color:  rgb(111, 71, 19);
 }
@@ -25,8 +41,13 @@
     padding-top: 150px;
     font-size: 18px;
     color: rgb(44, 6, 79);
+    
 
 }
+.jumbotron-fluid{
+    opacity:0.9 ;
+}
+
 
 .btn-light {
     color: rgb(111, 71, 19);
@@ -84,5 +105,8 @@
     flex-flow: row;
     justify-content: center;
     align-items: center;
+
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
    
 }
